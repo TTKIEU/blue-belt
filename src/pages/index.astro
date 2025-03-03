@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ChiikawaLore from './chiikawa-lore.mdx';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>‍Chiikawa Lore Theories</h1>
+			<p>
+				Welcome to the official Chiikawa Lore Blog! What is Chiikawa you might ask? 
+				Chiiikawa is a Japanese manga series written and illustrated by Nagano. The main contents of
+				 the work are the daily lives and interactions of a series of cute animal or animal-inspired characters
+			</p>
+
+<img src="/chiikawa.png" alt="Chiikawa" width="500" height="300">
+
+<br>
+			The character features a small, round, and cute creature that expresses a variety of emotions, ranging from happiness to sadness.
+
+		</main>
+		<Footer />
+	</body>
+</html>
